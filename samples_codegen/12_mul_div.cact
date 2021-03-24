@@ -1,0 +1,30 @@
+int main()
+{
+    // int
+    int a, b, c, d;
+    a = get_int();
+    b = a * 3;
+    c = get_int();
+    d = c / 2;
+    print_int(b);
+    print_int(d);
+
+    // float
+    float fa, fb, fc, fd;
+    fa = get_float();
+    fb = fa * 3.2f;
+    fc = get_float();
+    fd = fc / 1.6f;
+    print_float(fb);
+    print_float(fd);
+
+    // double
+    double da, db, dc, dd;
+    da = get_double();
+    db = da * 3.4;
+    dc = get_double();
+    dd = dc / 2.5;
+    print_double(db);
+    print_double(dd);
+    return 0;
+}

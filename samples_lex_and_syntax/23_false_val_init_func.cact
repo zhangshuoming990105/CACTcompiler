@@ -1,0 +1,13 @@
+int a = 0;
+
+int foo(int a)
+{
+	return a * a;
+}
+
+int main()
+{
+	int b = 2;
+	int c = foo(a);
+	return c;
+}

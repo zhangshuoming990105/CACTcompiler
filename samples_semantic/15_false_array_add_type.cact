@@ -1,0 +1,10 @@
+// 数组a和c的类型不同
+
+int main()
+{
+	int a[10];
+	int b[10];
+	float c[10];
+	b = a + c;
+	return 0;
+}

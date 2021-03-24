@@ -1,0 +1,12 @@
+int main()
+{
+    int a = 2;
+    int b;
+    b = -2;
+    int c;
+    c = +b;
+    bool d = false;
+    bool e;
+    e = !d;
+    return c;
+}

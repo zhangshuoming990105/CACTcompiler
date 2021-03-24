@@ -1,0 +1,10 @@
+int main()
+{
+    int i = 0;
+    int b = 0;
+    while(b){
+        i = i + 1;
+        b = b + 1;
+    }
+    return b;
+}

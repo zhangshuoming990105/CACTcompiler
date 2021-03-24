@@ -1,0 +1,21 @@
+// test user-defined function call
+
+int factorial(int n)
+{
+    if(n == 1)
+        return n;
+    else
+        return (n * factorial(n - 1));
+}
+
+int main()
+{
+    int n, result;
+    n = get_int();
+    if(n > 1)
+        result = factorial(n);
+    else
+        result = 1;
+    print_int(result);
+    return 0;
+}

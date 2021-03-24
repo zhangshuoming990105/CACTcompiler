@@ -1,0 +1,8 @@
+// INPUT: an integer
+// OUTPUT: the input integer
+
+int main()
+{
+	print_int(get_int());
+    return 0;
+}

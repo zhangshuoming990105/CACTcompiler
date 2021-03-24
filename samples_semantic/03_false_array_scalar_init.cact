@@ -1,0 +1,8 @@
+const int c = 3;
+const int d[4] = 1;
+int main()
+{
+	int a;
+	int b = 1;
+	return a;
+}

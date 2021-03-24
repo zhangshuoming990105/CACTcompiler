@@ -1,0 +1,7 @@
+int a = 4;
+
+int foo(int a)
+{
+	int b = 5;
+	return a + b;
+}

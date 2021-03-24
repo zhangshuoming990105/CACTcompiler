@@ -1,0 +1,9 @@
+int main()
+{
+	float a = 3.8f;
+	double b = 4.5;
+	bool c = false;
+	bool d = true;
+	int e = 0;
+	return 0;
+}

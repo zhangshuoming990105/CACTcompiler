@@ -1,0 +1,11 @@
+int main()
+{
+    int a[4] = {1, 2};
+    int b[4] = {3, 4};
+    bool c[4], d[4];
+    while(c == d)
+    {
+        a[1] = a[1] - 1;
+    }
+    return a[1];
+}

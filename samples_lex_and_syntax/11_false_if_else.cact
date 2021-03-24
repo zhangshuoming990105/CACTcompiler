@@ -1,0 +1,14 @@
+// 缺少;
+
+int main()
+{
+	int a[10];
+	int i;
+	if(a[1] == 0){
+		i = 1
+	}
+	else{
+		i = 0;
+	}
+	return i;
+}

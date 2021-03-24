@@ -1,0 +1,10 @@
+// 对数组c赋值时，两边数组类型不同
+
+int main()
+{
+	int a[10];
+	int b[10];
+	float c[10];
+	c = a + b;
+	return 0;
+}

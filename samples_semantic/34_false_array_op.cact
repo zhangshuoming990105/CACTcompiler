@@ -1,0 +1,10 @@
+int main()
+{
+    int a[4] = {1, 2};
+    int b[4] = {3, 4};
+    while(a > b)
+    {
+        a[1] = a[1] - 1;
+    }
+    return a[1];
+}

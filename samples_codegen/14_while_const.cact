@@ -1,0 +1,13 @@
+int main()
+{
+    const int n = 4;
+    int i = 0;
+    int b;
+    b = get_int();
+    while(i < n){
+        i = i + 1;
+        b = b + 1;
+        print_int(b);
+    }
+    return 0;
+}

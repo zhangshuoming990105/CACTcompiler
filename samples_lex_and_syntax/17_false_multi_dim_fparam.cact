@@ -1,0 +1,11 @@
+int a = 2;
+
+int foo(int a, int b[][3])
+{
+	return c;
+}
+
+int main()
+{
+	return a;
+}

@@ -1,0 +1,14 @@
+void func(int a)
+{
+    int b;
+    b = a * a;
+    return ;
+}
+
+int main()
+{
+    int b = 4;
+    int c;
+    c = func(b) + b;
+    return c;
+}

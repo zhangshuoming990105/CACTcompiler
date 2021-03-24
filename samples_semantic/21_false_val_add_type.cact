@@ -1,0 +1,12 @@
+// c = b + a，类型不匹配
+
+int a = 0;
+
+int main()
+{
+	int a = 2;
+	float b = 3.0f;
+	float c;
+	c = b + a;
+	return a;
+}

@@ -1,0 +1,41 @@
+const int a = 0;
+int b = 0x12580;
+int xx[5] = {-0x14,015};
+const int yy[4]= {-1,2};
+bool bt[3] = {true, false};
+const bool cbt[4] = {false,true,true};
+const float ffff[4] = {2.4f,3.7e2f};
+float gf = 31445e-6f;
+const double cgd = 21077.4e-2;
+double dddd[10] = {301.8e-2,3.14159E1};
+int func1(int a)
+{
+	int b = 3;
+	int c[4] = {0x1, 012, 0xF3, 4};
+	return a + b + c[2];
+}
+
+bool func2(float a)
+{
+	if(a == 0.0f)
+		return true;
+	else 
+		return false;
+}
+
+int main()
+{
+	int c = 8;
+	int d ;
+	d = c;
+	d = func1(c);
+	float e[8] = {};
+	float f[8] = {1.0f, 2.0f, 4.5e-2f, 3E2f, .5e3f};
+	float g[8];
+	g = e + f;
+	if(func2(f[0]))
+		print_float(g[0]);
+	else
+		print_bool(false);
+	return 0;
+}

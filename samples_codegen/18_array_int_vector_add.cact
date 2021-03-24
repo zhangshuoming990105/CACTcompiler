@@ -1,0 +1,19 @@
+// test array add
+
+int int_array_a[6] = {1, 2, 3, 4, 5, 6};
+int int_array_b[6] = {7, 8, 9, 10, 11, 12};
+const int n = 6;
+
+void int_array_vector_add()
+{
+    int int_array_c[6];
+    int_array_c = int_array_a + int_array_b;
+    print_int(int_array_c[5]);
+    return ;
+}
+
+int main()
+{
+    int_array_vector_add();
+    return 0;
+}

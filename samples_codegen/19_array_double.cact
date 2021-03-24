@@ -1,0 +1,24 @@
+// test double array visit and global double array
+
+double double_array_a[6] = {1.2, 2.3, 3.4, 4.5, 5.6, 6.7};
+double double_array_b[6] = {7.8, 8.9, 9.1, 10.2, 11.3, 12.4};
+const int n = 6;
+
+void double_array_add()
+{
+    double double_array_c[6];
+    int i = 0;
+    while(i < n)
+    {
+        double_array_c[i] = double_array_a[i] + double_array_b[i];
+        print_double(double_array_c[i]);
+        i = i + 1;
+    }
+    return ;
+}
+
+int main()
+{
+    double_array_add();
+    return 0;
+}

@@ -1,0 +1,21 @@
+// INPUT: value of a
+// OUTPUT: 4(a == 0) OR 2(a != 0)
+
+int main()
+{
+    int a;
+    int b = 2;
+    a = get_int();
+    if(a == 0){
+        int a = 4;
+        b = a;
+        print_int(b);
+    }
+    else
+    {
+        int b = 2;
+        a = b;
+        print_int(a);
+    }
+    return 0;
+}

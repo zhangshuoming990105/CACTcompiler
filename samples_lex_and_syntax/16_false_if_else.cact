@@ -1,0 +1,13 @@
+// 应有大括号
+
+int main()
+{
+	int a[10];
+	int i;
+	if(a[1] == 0)
+		i = 3;
+		a[i] = 8;
+	else
+		i = 0;
+	return i;
+}

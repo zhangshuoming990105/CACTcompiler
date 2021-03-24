@@ -1,0 +1,11 @@
+int main()
+{
+    int a = 3;
+    int b[4] = {1, 2};
+    int c[4] = {3, 4};
+    int d[4];
+    d = b + c;
+    bool e[4], f[4], g[4];
+    g = f;
+    return d[0];
+}

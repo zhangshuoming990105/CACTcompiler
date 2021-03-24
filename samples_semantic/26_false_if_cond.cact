@@ -1,0 +1,12 @@
+int main()
+{
+    int i = 0;
+    int b = 0;
+    if(i){
+        b = 3;
+    }
+    else{
+        b = 4;
+    }
+    return b;
+}

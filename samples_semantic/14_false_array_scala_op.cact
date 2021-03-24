@@ -1,0 +1,10 @@
+//标量和数组相加
+
+int main()
+{
+	int a[10];
+	int b = 2;
+	int c;
+	c = b + a;
+	return 0;
+}

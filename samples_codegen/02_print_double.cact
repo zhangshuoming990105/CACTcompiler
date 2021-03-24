@@ -1,0 +1,8 @@
+// OUTPUT: 3.400000
+
+int main()
+{
+    double a = 3.4;
+	print_double(a);
+    return 0;
+}

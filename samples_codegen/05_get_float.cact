@@ -1,0 +1,10 @@
+// INPUT: a float number
+// OUTPUT: the input float number
+
+int main()
+{
+    float a;
+    a = get_float();
+	print_float(a);
+    return 0;
+}

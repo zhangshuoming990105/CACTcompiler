@@ -1,0 +1,15 @@
+int a = 3;
+
+void func1(int a)
+{
+    int b;
+    b = a * a;
+    return b;
+}
+
+int main()
+{
+    float b = 3.5f;
+    func1(a);
+    return a;
+}

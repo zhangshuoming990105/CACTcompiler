@@ -1,0 +1,8 @@
+// OUTPUT: true
+
+int main()
+{
+    bool a = true;
+	print_bool(a);
+    return 0;
+}

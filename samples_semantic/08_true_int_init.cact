@@ -1,0 +1,9 @@
+//7 / 2合法
+
+int a = 0;
+int b = 7;
+int main()
+{
+	a = 7 / 2;
+	return 0;
+}

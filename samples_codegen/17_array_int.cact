@@ -1,0 +1,24 @@
+// test array visit and global array
+
+int int_array_a[6] = {1, 2, 3, 4, 5, 6};
+int int_array_b[6] = {7, 8, 9, 10, 11, 12};
+const int n = 6;
+
+void int_array_add()
+{
+    int int_array_c[6];
+    int i = 0;
+    while(i < n)
+    {
+        int_array_c[i] = int_array_a[i] + int_array_b[i];
+        print_int(int_array_c[i]);
+        i = i + 1;
+    }
+    return ;
+}
+
+int main()
+{
+    int_array_add();
+    return 0;
+}

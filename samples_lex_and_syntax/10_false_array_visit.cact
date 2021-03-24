@@ -1,0 +1,6 @@
+int main()
+{
+	float a[10];
+	a[2, 4] = 4.0;
+	return 0;
+}

@@ -1,0 +1,8 @@
+// INPUT: a double number
+// OUTPUT: the input double number
+
+int main()
+{
+	print_double(get_double());
+    return 0;
+}

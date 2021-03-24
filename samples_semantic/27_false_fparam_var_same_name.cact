@@ -1,0 +1,14 @@
+int func1(int a)
+{
+    int a = 3;
+    int b;
+    b = a * a;
+    return b;
+}
+
+int main()
+{
+    int a = 4;
+    a = func1(a);
+    return a;
+}

@@ -1,0 +1,15 @@
+void func(int a)
+{
+    a = 2;
+    int b = 3;
+    a = a + b;
+    return ;
+}
+
+int main()
+{
+    int a = 4;
+    int b = 2;
+    func(b);
+    return a;
+}

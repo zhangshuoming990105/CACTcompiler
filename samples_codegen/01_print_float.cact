@@ -1,0 +1,8 @@
+// OUTPUT: 2.300000
+
+int main()
+{
+    float a = 2.3f;
+	print_float(a);
+    return 0;
+}

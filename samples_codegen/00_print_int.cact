@@ -1,0 +1,8 @@
+// OUTPUT: 3
+
+int main()
+{
+    int a = 3;
+	print_int(a);
+    return 0;
+}

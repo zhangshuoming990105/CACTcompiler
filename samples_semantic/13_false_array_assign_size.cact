@@ -1,0 +1,10 @@
+// 数组大小不匹配
+
+int main()
+{
+	int a[10];
+	int b[10];
+	int c[12];
+	c = a + b;
+	return 0;
+}
